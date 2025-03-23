@@ -29,20 +29,6 @@
 
    Ensure it shows version 3.12 or later.
 
-4. Update pip and essential tools:
-
-   ```bash
-   pip install --upgrade pip setuptools wheel
-   ```
-
-5. Install the package in editable mode:
-
-   ```bash
-   cd finite-element-analysis
-   pip install -e .
-   ```
-
-
 ## Usage Example
 
 After installation, explore the functionality through our example script:
