@@ -40,6 +40,52 @@ Open the Jupyter notebook and run each cell in order for proper performance
 ```bash
 tutorial_discretization.ipynb
 ```
+### Tutorial 1: Validation with Analytical Solution
+
+This tutorial implements an example where we validate the performance of the code against an analytical solution for a cantilever beam problem.
+
+Key features:
+- Comparison of numerical results with the analytical beam deflection solution
+- Study of convergence for different element types and mesh refinements
+- Visualization of the relative error
+
+To run this tutorial:
+   ```bash
+   python tutorial_1_validation.py
+   ```
+### Tutorial 2: Large Deformation with h/p-refinement
+
+This tutorial demonstrates a large deformation example and showcases both h-refinement (mesh size) and p-refinement (element order) studies.
+
+Key features:
+- Large deformation bending problem
+- Comparison of linear (4-node) and quadratic (8-node) elements
+- Convergence study with increasing mesh density
+- Visualization of maximum displacement vs. number of elements
+
+To run this tutorial:
+   ```bash
+   python tutorial_2_refinement.py
+   ```
+
+### Tutorial 3: Convergence Failure Example
+
+This tutorial implements an example where the FEA code fails to converge to a correct solution and explains the reasons behind the failure.
+
+Key features:
+
+Highly compressed block problem
+Demonstration of common numerical issues in nonlinear FEA
+Explanation of why the solver fails
+Suggestions for improving convergence
+
+To run this tutorial:
+   ```bash
+   python tutorial_3_failure.py
+   ```
+
+These tutorials provide practical examples of using the FEA code, demonstrate its capabilities and limitations, and offer insights into proper problem setup and solution strategies in finite element analysis.
+
 
 # Finite Element Analysis (FEA) Solver Code Overview
 
