@@ -51,7 +51,7 @@ Key features:
 
 To run this tutorial:
    ```bash
-   python tutorial_1_validation.py
+   tutorial_1_validation.ipynb
    ```
 ### Tutorial 2: Large Deformation with h/p-refinement
 
@@ -65,7 +65,7 @@ Key features:
 
 To run this tutorial:
    ```bash
-   python tutorial_2_refinement.py
+   tutorial_2_refinement.ipynb
    ```
 
 ### Tutorial 3: Convergence Failure Example
@@ -81,7 +81,7 @@ Suggestions for improving convergence
 
 To run this tutorial:
    ```bash
-   python tutorial_3_failure.py
+   tutorial_3_failure.ipynb
    ```
 
 These tutorials provide practical examples of using the FEA code, demonstrate its capabilities and limitations, and offer insights into proper problem setup and solution strategies in finite element analysis.
